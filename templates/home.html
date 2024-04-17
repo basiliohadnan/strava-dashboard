@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strava Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <h1>Strava Dashboard</h1>
-    <form action="/get_athlete_data" method="get">
-        <button type="submit">Get Athlete Data</button>
-    </form>
-    <form action="/placeholder" method="get">
-        <button type="submit">Placeholder Button</button>
-    </form>
+    <div class="header">
+        <div class="container">
+            <h1>Strava Dashboard</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="button-container">
+            <form action="/get_athlete_data" method="get">
+                <button type="submit">Get Athlete Data</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
